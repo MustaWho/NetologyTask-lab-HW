@@ -17,7 +17,7 @@ def parse_data(data):
         region = row['region']
 
         # Формирование текстового описания
-        description = (f"Пользователь {name} {gender} пола, {age} лет "
+        description = (f"Пользователь {name} {gender} пола, {int(age)} лет "
                        f"совершила покупку на {amount} у.е. с мобильного браузера {browser}. "
                        f"Регион, из которого совершалась покупка: {region}.")
 
